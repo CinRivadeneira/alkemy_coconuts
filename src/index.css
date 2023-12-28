@@ -1,0 +1,157 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;  
+  margin:  15px ;
+}
+button:hover {
+  border-color: brown;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.productos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.productCard{
+  background-color:antiquewhite;
+  border-radius: 20px;    
+  width:300px;
+  height: 420px;
+  margin: 20px;
+}
+
+.productCard img{
+  margin-top: 25px;
+}
+
+
+
+
+
+.iconCarrito{
+  color: #e47023;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+
+.carrito-zone{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+
+
+.basurero{
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.totalCompra{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.detalleCompra{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.detalleCompra p{
+  margin: 15px;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+}
+
+.formulario {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea{
+  width: 500px;
+  height: 150px;
+}
+
+span{
+  color: red;
+  display: block;
+  font-size: small;
+}
+
+
