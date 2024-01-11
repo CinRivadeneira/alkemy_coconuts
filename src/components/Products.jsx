@@ -18,7 +18,7 @@ const Products = () => {
               <h4>{product.nombreProducto}</h4>
               <p>{product.descripcionProducto}</p>
               <h4>${product.precio}</h4>
-              <button className="btn btn-primary" onClick={() => onAddProduct(product)}>
+              <button id="añadir" className="btn btn-primary" onClick={() => onAddProduct(product)}>
                 Añadir al carrito
               </button>
             </div>
